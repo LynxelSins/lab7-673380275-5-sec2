@@ -1,7 +1,7 @@
 # Lab7-673380275-5-Sec2: Database Connectivity — Game Catalog CRUD
 นางสาวปภาวรินทร์ นาเมืองรักษ์ รหัสนักศึกษา 673380275-5 Section2
 ---
-## ส่วนที่ 1: Software Design & Principles Explanation (เขียนอธิบาย)
+## ส่วนที่ 1: Software Design & Principles Explanation 
 - **อธิบายสถาปัตยกรรมและ GRASP Patterns:** เขียนอธิบายการแบ่งหน้าที่ของคลาส (Entity, Repository, Service, Controller) ตามหลัก **GRASP Patterns** (เช่น Controller Pattern, High Cohesion, Low Coupling, Information Expert, Indirection)
 - **อธิบาย High-Level SOLID Principles:** เขียนอธิบายการประยุกต์ใช้หลักการ SOLID (SRP, OCP, LSP, ISP, DIP) ในระบบ
 - **อธิบาย Strategy Pattern:** เขียนอธิบายการประยุกต์ใช้ **Strategy Pattern** ในการคำนวณส่วนลดราคาเกม (`DiscountStrategy`, `NoDiscountStrategy`, `StudentDiscountStrategy`, `SeasonalSaleStrategy`, `DiscountContext`) พร้อมประโยชน์ด้าน Open/Closed Principle (OCP)
