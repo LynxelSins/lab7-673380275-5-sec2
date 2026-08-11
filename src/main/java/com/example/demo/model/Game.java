@@ -73,7 +73,7 @@ public class Game {
     }
 
     public void setTitle(String title) {
-        this.title = title;
+        this.title = title; 
     }
 
     public String getGenre() {
