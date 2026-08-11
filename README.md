@@ -1,8 +1,6 @@
 # Lab7-673380275-5-Sec2: Database Connectivity — Game Catalog CRUD
 นางสาวปภาวรินทร์ นาเมืองรักษ์ รหัสนักศึกษา 673380275-5 Section2
 ---
-# Lab 7: Database Connectivity — Game Catalog CRUD
-
 ## **ส่วนที่ 1: Software Design & Principles Explanation**
 
 ## **GRASP Patterns**
@@ -146,26 +144,25 @@ Context ทำหน้าที่เลือก Strategy ที่เหม�
 
 ### 3.1 หน้าจอการเพิ่มเกมใหม่ (Create)
 
-![][image1]  
+![Alt Text](https://github.com/LynxelSins/lab7-673380275-5-sec2/blob/main/Screenshot/AddGame.png)
 รูปที่ 3.1: หน้าฟอร์มเพิ่มเกมใหม่
 
 ### 3.2 หน้าจอแสดงรายการเกมทั้งหมด (Read)
 
-![][image2]  
+![Alt Text](https://github.com/LynxelSins/lab7-673380275-5-sec2/blob/main/Screenshot/AddGameSuccess.png)
 รูปที่ 3.2: หน้าแสดงรายการเกมทั้งหมด พร้อมแสดงราคาสุทธิที่คำนวณผ่าน Strategy Pattern
 
 ### 3.3 หน้าจอแก้ไขข้อมูลเกม (Update)
 
-![][image3]  
+![Alt Text](https://github.com/LynxelSins/lab7-673380275-5-sec2/blob/main/Screenshot/UpdateGameSuccess.png)
 รูปที่ 3.3: หน้าฟอร์มแก้ไขข้อมูลเกม
 
 ### 3.4 หน้าจอยืนยันและการลบข้อมูลเกม (Delete)
 
-![][image4]  
-![][image5]  
+![Alt Text](https://github.com/LynxelSins/lab7-673380275-5-sec2/blob/main/Screenshot/DeleteGameSuccess.png) 
 รูปที่ 3.4: หน้าจอยืนยันการลบเกม และผลลัพธ์หลังทำการลบ
 
 ### 3.5 หน้าจอตรวจสอบข้อมูลใน PostgreSQL Database
 
-![][image6]  
+![Alt Text](https://github.com/LynxelSins/lab7-673380275-5-sec2/blob/main/Screenshot/pgDatabase.png) 
 รูปที่ 3.5: ข้อมูลตาราง games ที่ถูกจัดเก็บจริงในฐานข้อมูล PostgreSQL  
